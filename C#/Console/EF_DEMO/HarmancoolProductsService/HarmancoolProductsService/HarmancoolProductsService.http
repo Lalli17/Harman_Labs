@@ -1,0 +1,6 @@
+@HarmancoolProductsService_HostAddress =  https://localhost:7104
+
+GET {{HarmancoolProductsService_HostAddress}}/api/Values/
+Accept: application/json
+
+###

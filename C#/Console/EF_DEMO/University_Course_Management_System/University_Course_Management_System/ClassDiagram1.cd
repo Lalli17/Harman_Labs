@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="University_Course_Management_System.Entities.Instructor">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAACAAAAAAQAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\Instructor.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="OfficeAssignment" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="University_Course_Management_System.Entities.OfficeAssignment">
+    <Position X="4.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAAIAAAAAACAAAAAAAAQAAAAAAAA=</HashCode>
+      <FileName>Entities\Instructor.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Instructor" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="University_Course_Management_System.Entities.Department">
+    <Position X="10.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAAAQAAAAAAAAAAAAAABAAAAA=</HashCode>
+      <FileName>Entities\Instructor.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Courses" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="University_Course_Management_System.Entities.Course">
+    <Position X="7" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAgEAAAAAAAAAAEAAAACAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\Instructor.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Department" />
+      <Property Name="Enrollments" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="University_Course_Management_System.Entities.Student">
+    <Position X="10.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAIAAAAAAAAAAAAAAACAAAAAAAAACAAA=</HashCode>
+      <FileName>Entities\Instructor.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Enrollments" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="University_Course_Management_System.Entities.Enrollment">
+    <Position X="6.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAQAAAAAAAAIAAAAAAAAAAAAAAAAAAAAECAAA=</HashCode>
+      <FileName>Entities\Instructor.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Course" />
+      <Property Name="Student" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="University_Course_Management_System.Entities.OnlineCourse">
+    <Position X="6.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAAAAAAAAAAEAAAAAAACAAAAAAAAAA=</HashCode>
+      <FileName>Entities\Instructor.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Department" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="University_Course_Management_System.Entities.OnSiteCourse">
+    <Position X="8.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAAAAAAIAAAEEAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\Instructor.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Department" />
+    </ShowAsAssociation>
+  </Class>
+  <Interface Name="System.Collections.Generic.ICollection&lt;T&gt;" Collapsed="true">
+    <Position X="10.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
