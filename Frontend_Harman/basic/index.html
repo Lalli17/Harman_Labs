@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+    <h1 id="Welcome" style="color: green;">Welcome to my first JavaScript Program</h1>
+    <button onclick="changeColor()">Change color</button>
+    <script>
+        function changeColor() {
+            //let h1Element = document.getElementById("Welcome");
+            let h1Element = document.querySelector("#Welcome");
+            h1Element.style.color = "red";
+            h1Element.textContent = "color changed to red";
+        }
+
+
+      fetch('https://jsonplaceholder.typicode.com/todos/1')
+          .then(response => response.json())
+          .then(data => console.log(data))
+          .catch(error => console.error('Error:', error));
+
+    </script>
+
+</body>
+
+</html>
