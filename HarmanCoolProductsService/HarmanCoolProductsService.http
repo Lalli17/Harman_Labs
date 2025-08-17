@@ -1,0 +1,6 @@
+@HarmanCoolProductsService_HostAddress = https://localhost:44363
+
+GET {{HarmanCoolProductsService_HostAddress}}/api/coolproducts/
+Accept: application/json
+
+###
